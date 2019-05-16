@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.message__container {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.message__coming-soon {
+  color: #fff;
+  font-size: 4rem;
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  .message__coming-soon {
+    color: #fff;
+    font-size: 2rem;
+  }
+}
